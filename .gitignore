@@ -152,3 +152,6 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+
+# PUBG API key
+apikey.py
