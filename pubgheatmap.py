@@ -9,7 +9,9 @@ import random
 from slider_gallery_frame import SliderGalleryFrame
 import tkinter as tk
 
-API_KEY = ''
+from apikey import apikey
+
+API_KEY = apikey()
 
 ERANGEL_MAP_IMG_PATH = 'data/img/erangel_map.jpg'
 MIRAMAR_MAP_IMG_PATH = 'data/img/miramar_map.jpg'
